@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Adafruit_MCP2221A_Breakout
+D General Purpose USB to GPIO ADC I2C - Stemma QT / Qwiic
+K mcp2221A i2c gpio adc Stemma QT breakout
+F https://www.adafruit.com/product/4471
+$ENDCMP
+#
+#End Doc Library
