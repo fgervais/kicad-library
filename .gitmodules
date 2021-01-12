@@ -1,0 +1,3 @@
+[submodule "kicad-ngff"]
+	path = kicad-ngff
+	url = https://github.com/jmgao/kicad-ngff.git
