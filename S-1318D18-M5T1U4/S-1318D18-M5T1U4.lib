@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# S-1318D18-M5T1U4
+#
+DEF S-1318D18-M5T1U4 IC 0 40 Y Y 1 L N
+F0 "IC" 1050 300 50 H V L BNN
+F1 "S-1318D18-M5T1U4" 1050 200 50 H V L BNN
+F2 "SOT95P275X130-5N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ABLIC U.S.A. Inc." 0 0 50 H I L BNN "Manufacturer_Name"
+F5 "S-1318D18-M5T1U4" 0 0 50 H I L BNN "Manufacturer_Part_Number"
+F6 "LDO Voltage Regulators 100MA VOLT REG ULTRA LOW IQ" 0 0 50 H I L BNN "Description"
+F7 "" 0 0 50 H I L BNN "RS_Price-Stock"
+F8 "" 0 0 50 H I L BNN "RS_Part_Number"
+F9 "1.3mm" 0 0 50 H I L BNN "Height"
+DRAW
+P 2 0 0 10 200 100 1000 100 N
+P 2 0 0 10 1000 -300 1000 100 N
+P 2 0 0 10 1000 -300 200 -300 N
+P 2 0 0 10 200 100 200 -300 N
+X VIN 1 0 0 200 R 40 40 0 0 B 
+X VSS 2 0 -100 200 R 40 40 0 0 B 
+X ON/OFF 3 0 -200 200 R 40 40 0 0 B 
+X NC 4 1200 0 200 L 40 40 0 0 N 
+X VOUT 5 1200 -100 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
