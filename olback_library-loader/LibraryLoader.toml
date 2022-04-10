@@ -1,0 +1,15 @@
+[settings]
+watch_path = '..'
+recursive = false
+
+[formats.'3d']
+format = "3d"
+output_path = "."
+
+[formats.'kicad']
+format = "kicad"
+output_path = "."
+
+[profile]
+username = ""
+password = ""
