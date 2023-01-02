@@ -31,8 +31,8 @@
   (pad "A" smd rect (at -2.5 7.3) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f388b97c-eaf0-4516-b775-0d2d142045cc))
   (pad "B" smd rect (at 2.5 7.3) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a8f8088b-471c-4368-a9e4-0b39e58b0127))
   (pad "C" smd rect (at 0 7.3) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 52fd2c60-99d8-4687-8882-665633f42c34))
-  (pad "D" smd rect (at -2.5 -7) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 899653d2-7d45-4600-b1fe-8cfaeaeb0486))
-  (pad "E" smd rect (at 2.5 -7) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87ab3680-cccc-4246-99cb-396d3df854ed))
+  (pad "S1" smd rect (at -2.5 -7) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 899653d2-7d45-4600-b1fe-8cfaeaeb0486))
+  (pad "S2" smd rect (at 2.5 -7) (size 1.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87ab3680-cccc-4246-99cb-396d3df854ed))
   (model "${KIPRJMOD}/kicad-library/PEC11S-9213K-S0015/RotaryEncoder_Bourns_PEC11S-929K-S0015-Switch_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
