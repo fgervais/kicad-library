@@ -208,28 +208,24 @@
 		(at -2.075 -1.075)
 		(size 1.05 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "77bb88ef-0e35-498f-ba43-2a5a9dea0cf1")
 	)
 	(pad "2" smd rect
 		(at 2.075 -1.075)
 		(size 1.05 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "d8690c9d-26d4-4580-bbe9-560a66b55970")
 	)
 	(pad "3" smd rect
 		(at -2.075 1.075)
 		(size 1.05 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "e1990648-9545-412d-a654-8e1551d7c921")
 	)
 	(pad "4" smd rect
 		(at 2.075 1.075)
 		(size 1.05 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
 		(uuid "9a45ce13-e1a1-44d6-a3fb-4566e24ecb3e")
 	)
 	(model "${KIPRJMOD}/kicad-library/PTS810-SJM-250-SMTR-LFS/PTS810_SJM_250_SMTR_LFS.step"
