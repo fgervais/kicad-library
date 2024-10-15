@@ -1,23 +1,204 @@
-(module TZ042101B000G (layer F.Cu) (tedit 636307B0)
-  (fp_text reference REF** (at 0 5.85) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value TZ042101B000G (at 0 4.85) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 3.6 3.7) (end 0 3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 7.1 -3.7) (end 7.1 3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start -3.6 -3.7) (end 3.6 -3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start -7.1 3.7) (end -7.1 -3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0 3.7) (end -3.6 3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 7.1 3.7) (end 3.6 3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start -3.6 3.7) (end -7.1 3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start -7.1 -3.7) (end -3.6 -3.7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 3.6 -3.7) (end 7.1 -3.7) (layer F.SilkS) (width 0.12))
-  (pad "" np_thru_hole circle (at -8 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 8 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-  (pad 2 smd rect (at -1.75 -4.95) (size 1.4 5.1) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.75 -4.95) (size 1.4 5.1) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 5.25 -4.95) (size 1.4 5.1) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -5.25 -4.95) (size 1.4 5.1) (layers F.Cu F.Paste F.Mask))
+(footprint "TZ042101B000G"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5.85 0)
+		(layer "F.SilkS")
+		(uuid "2269bbbd-e22c-4428-b8da-adbd4aa81016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TZ042101B000G"
+		(at 0 4.85 0)
+		(layer "F.Fab")
+		(uuid "bfc56cb6-aaf0-4925-8ce0-1126b2647290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efa3aafd-7068-41bc-b1b4-75fa50f43c38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "914d3933-a0dc-4493-a990-0d9cdaa7aee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54e954ef-ec3c-4bc7-8bd0-8401ab4f5990")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.1 -3.7)
+		(end -3.6 -3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9df5131-c9bc-48e4-8f08-6856a2822710")
+	)
+	(fp_line
+		(start -7.1 3.7)
+		(end -7.1 -3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73066ea3-800b-4a75-a8f1-0f39e2a5704c")
+	)
+	(fp_line
+		(start -3.6 -3.7)
+		(end 3.6 -3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cc15c90-0f7c-466d-8801-cebbd66500cb")
+	)
+	(fp_line
+		(start -3.6 3.7)
+		(end -7.1 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86eddf48-600b-49d4-ac1e-95e7514d4a11")
+	)
+	(fp_line
+		(start 0 3.7)
+		(end -3.6 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b5e1a9a-c528-4037-b508-d708f060dbac")
+	)
+	(fp_line
+		(start 3.6 -3.7)
+		(end 7.1 -3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e5511c9-b24b-4b43-a075-0b3d3c5c7320")
+	)
+	(fp_line
+		(start 3.6 3.7)
+		(end 0 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50c6d39f-35be-4ad4-900c-e8a7232a70e9")
+	)
+	(fp_line
+		(start 7.1 -3.7)
+		(end 7.1 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "278932c1-ce12-4c98-ab20-5b8cdcee9e16")
+	)
+	(fp_line
+		(start 7.1 3.7)
+		(end 3.6 3.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0d33737-a2f4-490b-96ec-250bb70fa3c7")
+	)
+	(pad "" np_thru_hole circle
+		(at -8 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7c82aea8-9d84-46d0-a5f3-00f01bd4ca92")
+	)
+	(pad "" np_thru_hole circle
+		(at 8 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "233e1a02-d448-48cc-8ddc-bbf9da4843fb")
+	)
+	(pad "1" smd rect
+		(at -5.25 -4.95)
+		(size 1.4 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9dfb1fcc-39da-4fda-b203-c37aadad48b3")
+	)
+	(pad "2" smd rect
+		(at -1.75 -4.95)
+		(size 1.4 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e742a7b7-7bc3-4fab-82dc-bc1cf768c2d2")
+	)
+	(pad "3" smd rect
+		(at 1.75 -4.95)
+		(size 1.4 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8ab65bf3-2ba6-4c85-b80c-c1e56b463243")
+	)
+	(pad "4" smd rect
+		(at 5.25 -4.95)
+		(size 1.4 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bc688022-c4ab-4d47-b5a5-d013d3360969")
+	)
+	(model "${KIPRJMOD}/kicad-library/TZ042101B000G/691508110304_rev1.stp"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )
