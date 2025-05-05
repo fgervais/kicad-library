@@ -1,0 +1,121 @@
+(footprint "KEYSTONE_24949_M4x07"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Round Standoff Threaded M4x0.7 Steel 0.012\" (0.31mm)")
+	(tags "standoff m4")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "d23b681f-bd2c-4289-aba4-c108e8fe4b0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_24949_M4x07"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "252aaef3-edbd-4158-a132-915cf9bb194b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6d4e94f-fb7a-41c4-9b62-6053abdd975d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd51630e-bf88-4f1d-a834-f3ae5f5b20ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f092a41-8992-420d-b170-b7d70fbe6d7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.9 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "85b46e31-17a9-43f4-8490-033a9985d80c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "00132b66-fff4-4775-8218-effe9f9c4959")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4 8 0)
+		(layer "F.Fab")
+		(uuid "89d0b75f-9b8c-462c-80ff-95c1ec9327f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 7.8 7.8)
+		(drill 5.41)
+		(layers "F.Cu" "F.Mask")
+		(uuid "deb5e0d0-7877-4f6e-94f9-c24d80dd9137")
+	)
+	(model "${KIPRJMOD}/kicad-library/KEYSTONE_24949/24949--3DModel-STEP-630548.STEP"
+		(offset
+			(xyz 0 0 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
