@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CNCTECH_3020-26-0200-00:CNCTECH_3020-26-0200-00"
 			(at 0 0 0)
 			(effects
 				(font
