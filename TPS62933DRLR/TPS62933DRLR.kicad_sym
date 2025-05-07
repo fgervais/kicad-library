@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TPS62933DRLR:TPS62933DRLR "
+		(property "Footprint" "TPS62933DRLR:TPS62933DRLR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -177,8 +177,8 @@
 		)
 		(symbol "TPS62933DRLR_0_0"
 			(rectangle
-				(start -10.16 -10.16)
-				(end 10.16 12.7)
+				(start -10.16 12.7)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
