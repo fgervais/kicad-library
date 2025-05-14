@@ -28,7 +28,7 @@
 			)
 		)
 		(property "Footprint" "CNCTECH_3220-26-0300-00:CNC_3220-26-0300-00"
-			(at 0 0 0)
+			(at -1.524 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "MF" "CNC Tech"
-			(at 0 0 0)
+			(at -23.622 -35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.6mm"
-			(at 0 0 0)
+			(at -24.892 -33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at -25.654 -43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at -25.654 -45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/3220-26-0300-00/CNC+Tech/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 13.716 -41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at -12.954 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +116,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 0 0 0)
+			(at -27.432 -47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3220-26-0300-00/CNC+Tech/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 14.224 -26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "MP" "3220-26-0300-00"
-			(at 0 0 0)
+			(at -18.542 -31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +146,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Connector Header Surface Mount 26 position 0.050 (1.27mm)\n                        \n"
-			(at 0 0 0)
+			(at -11.43 -51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at -24.13 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CNC Tech"
-			(at 0 0 0)
+			(at -23.622 -37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
