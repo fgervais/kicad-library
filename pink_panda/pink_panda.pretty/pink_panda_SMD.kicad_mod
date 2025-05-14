@@ -2159,4 +2159,26 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b216e178-73fb-45f2-8326-aea057ee44aa")
 	)
+	(model "${KIPRJMOD}/kicad-library/pink_panda/PinSocket_1x12_P2.54mm_Vertical_SMD_Pin1Right.wrl"
+		(offset
+			(xyz -10.16 5.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/kicad-library/pink_panda/PinSocket_1x16_P2.54mm_Vertical_SMD_Pin1Right.wrl"
+		(offset
+			(xyz 10.16 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
