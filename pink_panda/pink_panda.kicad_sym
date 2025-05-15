@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" "Pink Panda"
-			(at 1.016 23.876 0)
+		(property "Value" "Pink Panda v2.1.0"
+			(at 0.254 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
