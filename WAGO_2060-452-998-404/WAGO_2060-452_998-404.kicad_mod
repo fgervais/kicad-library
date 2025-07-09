@@ -224,32 +224,32 @@
 		(layer "F.Fab")
 		(uuid "6eb7c276-04b0-4149-b9d8-d3533a85250e")
 	)
-	(pad "1_1" smd rect
+	(pad "1_1" smd roundrect
 		(at -4 -2)
 		(size 6 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.125)
 		(uuid "fa3d12f8-4b10-489a-abb1-c32a71ac1983")
 	)
-	(pad "1_2" smd rect
+	(pad "1_2" smd roundrect
 		(at 5.25 -2)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.125)
 		(uuid "83c2bda8-139f-4cee-88f0-797fa9051832")
 	)
-	(pad "2_1" smd rect
+	(pad "2_1" smd roundrect
 		(at -4 2)
 		(size 6 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.125)
 		(uuid "56e06044-10b4-48a7-8c60-c538ffef0054")
 	)
-	(pad "2_2" smd rect
+	(pad "2_2" smd roundrect
 		(at 5.25 2)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.125)
 		(uuid "18ce9474-e386-463c-912d-2617151eff71")
 	)
 	(model "${KIPRJMOD}/kicad-library/WAGO_2060-452-998-404/2060-452_998-404.stp"
