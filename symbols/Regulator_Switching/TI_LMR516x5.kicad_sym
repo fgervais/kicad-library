@@ -24,14 +24,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TSOT-23:TSOT-23-6"
+		(property "Footprint" "SOT:TSOT-23-6"
 			(at 1.27 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf"
