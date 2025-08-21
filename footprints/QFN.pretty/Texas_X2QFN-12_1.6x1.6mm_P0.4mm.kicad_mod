@@ -301,7 +301,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "57a60ed3-2ff6-439a-aa5c-e839a92082c6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.wrl"
+	(model "${KIPRJMOD}/kicad-library/3dmodels/X2QFN12-RWB0012A.step"
 		(offset
 			(xyz 0 0 0)
 		)
