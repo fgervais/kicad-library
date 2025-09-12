@@ -250,16 +250,18 @@
 	)
 	(pad "1" smd roundrect
 		(at -0.7 0 180)
-		(size 0.6 0.7)
+		(size 0.5 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.05)
 		(uuid "0a730c22-5295-4f74-be7e-c5ce25b9692c")
 	)
 	(pad "2" smd roundrect
 		(at 0.7 0 180)
-		(size 0.6 0.7)
+		(size 0.5 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_paste_margin -0.05)
 		(uuid "0048822b-dc04-4b42-ace6-d2d3ec208472")
 	)
 	(model "${KIPRJMOD}/kicad-library/3dmodels/D_SOD-523.step"
