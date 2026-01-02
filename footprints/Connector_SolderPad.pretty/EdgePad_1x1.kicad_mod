@@ -1,0 +1,114 @@
+(footprint "EdgePad_1x1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1f1555b-e507-433e-95e5-9722cf32227c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EdgePad_1x1"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6404e8ec-5cea-4262-bb63-ce27b9eaf2da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03e7d421-79e8-4a32-9c33-756338224999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a47dc29-5712-48f1-853f-d9256133348b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "871c4478-b943-4507-9476-fb7379288449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a37b5b90-f69c-45c1-870b-1df3f676ddc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.12)
+		(thermal_bridge_angle 45)
+		(uuid "87ab6887-9b5a-4e86-ab88-4e85de787298")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 4)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.12)
+		(thermal_bridge_angle 45)
+		(uuid "bfe12f24-6151-48ab-b2de-89ff3b62fcd9")
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bea1b45-37e0-4762-8752-d7ba3459eb56")
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06f540b9-13ba-401e-9fec-d2a9c2ad0996")
+	)
+)
